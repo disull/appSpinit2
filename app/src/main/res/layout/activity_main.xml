@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu" />
+
+
+        <!--Возможно можно как-то центрилизовать, вообще никак не поддается-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:text="Русский" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_arrow" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="257dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_instagram_logo_1" />
+
+    <Button
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#3B5998"
+        android:text="Продолжить с Faceebook" />
+
+    <ImageView
+        android:layout_width="331dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_or" />
+
+    <EditText
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Номер телефона, имя пользователя" />
+
+    <EditText
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Пароль" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textSize="18dp"
+        android:textColor="#3B5998"
+        android:text="Забыли пароль ?"/>
+
+    <Button
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#606E8C"
+        android:text="Войти" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="У вас еще нет аккаунта? "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#3B5998"
+            android:text="Зарегестриоваться"/>
+    </LinearLayout>
+
+</LinearLayout>
